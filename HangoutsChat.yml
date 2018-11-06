@@ -1,0 +1,9 @@
+app: google-chat-linux
+#binpatch: true
+
+ingredients:
+  dist: trusty
+  sources:
+    - deb http://archive.ubuntu.com/ubuntu/ trusty main universe
+  debs:
+    - /<PathToRepo>/dist/installers/google-chat-linux_0.0.4-1_amd64.deb
